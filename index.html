@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Preguntas y Respuestas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>¡Pon a prueba tus conocimientos!</h1>
+        <div id="quiz">
+            <div id="question-display">
+                <h2 id="question-text"></h2>
+                <div id="options-container" class="options-grid">
+                    </div>
+            </div>
+            <button id="next-btn" class="action-btn">Siguiente Pregunta</button>
+            <button id="restart-btn" class="action-btn hidden">Reiniciar Juego</button>
+        </div>
+
+        <div id="result-display" class="hidden">
+            <h2>¡Juego Terminado!</h2>
+            <p>Tu puntuación final es: <span id="final-score">0</span> de <span id="total-questions">0</span></p>
+            <button id="play-again-btn" class="action-btn">Jugar de Nuevo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
